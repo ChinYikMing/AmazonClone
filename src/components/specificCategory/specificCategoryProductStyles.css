@@ -1,0 +1,33 @@
+.specific-product {
+    flex: 1;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.specific-product > img {
+    width: 150px;
+}
+
+.specific-product > a {
+    display: block;
+}
+
+.star-list > ul{
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+}
+
+.specific-product-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .specific-product {
+        width: 100%;
+    }
+  }

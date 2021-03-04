@@ -1,0 +1,31 @@
+  .cart-product > img {
+    width: 150px;
+  }
+  
+  .cart-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .cart-summary {
+    padding: 14px 18px;
+    background-color: #F3F3F3;
+    align-self: flex-start;
+  }
+  
+  .cart-subtotal > span {
+    font-weight: bold;
+  }
+  
+  .cart-empty-text, .cart-text {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .cart-gift-checkbox {
+      display: flex;
+      font-size: .8rem;
+      margin-top: 10px;
+  }

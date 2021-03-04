@@ -1,0 +1,114 @@
+.navbar {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-icon {
+    color: white;
+  }
+  
+  .navbar-logo {
+    background-color: #000;
+    width: 100px;
+    padding-top: 5px;
+    object-fit: contain;
+  }
+  
+  .searchbox {
+    margin-left: 20px;
+    display: flex;
+    flex: 1;
+  }
+  
+  .searchbox > .search-input {
+    width: 100%;
+  }
+  
+  .nav-link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+  }
+  
+  .cart-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .cart-link-text {
+    align-self: flex-end;
+  }
+  
+  .text-1 {
+    font-size: 0.7rem;
+    color: grey;
+  }
+  
+  .text-2 {
+    font-weight: bold;
+  }
+
+  .menu-and-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sidebar-container {
+    position: relative;
+    width: 340px;
+    z-index: 3;
+  }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    position: relative;
+    justify-content: space-between;
+    padding-bottom: 55px;
+  }
+
+  .searchbox {
+    position: absolute;
+    bottom: 10%;
+    width: 95%;
+    margin: 0;
+    left: 2.5%;
+    right: 2.5%;
+  }
+
+  .sidebar-container {
+    width: 270px;
+  }
+
+  .navbar-logo {
+    width: 60px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .text-1 {
+    font-size: 0.6rem;
+  }
+
+  .text-2 {
+    font-size: 0.8rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .home-background-image {
+    margin-bottom: -28%;
+  }
+}
