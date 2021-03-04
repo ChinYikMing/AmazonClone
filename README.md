@@ -2,11 +2,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Setting your firebase config file using guide below
 
-Step 1: go to visit firebase docs https://firebase.google.com/docs/web/setup#config-object (Follow step 2 and step 3) 
+Step 1: Go to visit firebase docs https://firebase.google.com/docs/web/setup#config-object (Follow step 2 and step 3) 
 
 Step 2: Open src directory and then open firebase directory, you will see a file called config.js
 
-Step 3: replace the API_KEY, PROJECT_ID, SENDER_ID, APP_ID, MEASUREMENT_ID with the actual one of your web app that just newly created
+Step 3: Replace the API_KEY, PROJECT_ID, SENDER_ID, APP_ID, MEASUREMENT_ID with the actual one of your web app that just newly created
 
 Last Step: Congrats! Now Follow the scripts in next few lines and you are ready to go. Enjoy!
 
