@@ -21,7 +21,7 @@ const addToCartFailure = (err) => {
 export const addToCart = (item) => {
     return (dispatch, getState, { getFirebase, getFirestore }) => {
         const auth = getFirebase().auth();
-        const uid = auth.W;
+        const uid = auth.X;
         const db = getFirestore();
 
         if (uid) {
@@ -41,7 +41,7 @@ export const addToCart = (item) => {
 export const removeFromCart = (itemId) => {
     return (dispatch, getState, { getFirebase, getFirestore }) => {
         const auth = getFirebase().auth();
-        const uid = auth.W;
+        const uid = auth.X;
         const db = getFirestore();
 
         db.collection('carts').doc(uid).collection('carts')
