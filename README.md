@@ -12,7 +12,7 @@ Step 4: Go to your web app console, click the "Build" section in sidebar,click A
 
 Step 5: In the same "Build" section in sidebar, click "Cloud Firestore" and then click "Start collection" with Collection ID: users, Document ID: click Auto-ID, Field 1: avatarUrl(string), Field 2: displayName(string), Field 3: email(string)
 
-Step 6: click the "Rules" besides the "Data", choose production mode and change "allow read, write: if false" to "allow read, write: if request.auth != null"
+Step 6: Click the "Rules" besides the "Data", choose production mode and change "allow read, write: if false" to "allow read, write: if request.auth != null"
 
 Last Step: Congrats! Now Follow the scripts and notes below and you are ready to go. Enjoy!
 
