@@ -24,7 +24,7 @@ In the project directory, you can run:
 
 Install the node_modules for the web app dependencies
 
-After this script, if you see "npm audit fix" to fix some vulnerabilities, please run npm audit fix --force
+After this script, if you see "npm audit fix" to fix some vulnerabilities, please run "npm audit fix --force"
 
 ### `npm start`
 
