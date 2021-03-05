@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Setting your firebase config file using guide below
+## Setting your firebase for the web app
 
 Step 1: Go to visit firebase docs https://firebase.google.com/docs/web/setup#config-object (Follow step 2 and step 3) 
 
